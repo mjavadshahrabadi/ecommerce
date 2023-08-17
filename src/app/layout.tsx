@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import React from 'react'
 import localFont from 'next/font/local'
 import { Advertise } from '@/components/ui/Advertise'
+import { Navbar } from '@/components/ui/Navbar'
 
 // custom font - iran yekan
 const yekan = localFont({
@@ -30,6 +31,7 @@ export default function RootLayout({
               '/gif/advertise/ads-1-mobile.gif',
             ]}
           />
+          <Navbar />
           {children}
         </main>
       </body>

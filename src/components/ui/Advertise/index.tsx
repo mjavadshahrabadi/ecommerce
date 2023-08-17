@@ -9,20 +9,20 @@ export const Advertise: FC<AdvertiseProps> = ({ src }): ReactElement => {
   return (
     <>
       <Image
-        src={src[0]}
         alt="advertise"
-        width={3400}
-        height={300}
-        className="hidden md:block"
-        layout="responsive"
+        src={src[0]}
+        width="0"
+        height="0"
+        sizes="100vw"
+        className="w-full h-auto hidden md:block"
       />
       <Image
-        src={src[1]}
         alt="advertise-mobile"
-        width={1024}
-        height={90}
-        className="block md:hidden"
-        layout="responsive"
+        src={src[1]}
+        width="0"
+        height="0"
+        sizes="100vw"
+        className="w-full h-auto block md:hidden"
       />
     </>
   )

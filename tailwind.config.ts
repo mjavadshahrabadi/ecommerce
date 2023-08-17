@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         primary: '#FF096A',
       },
+      maxWidth: {
+        '8xl': '90rem', // 1440px
+      },
     },
   },
   plugins: [],
