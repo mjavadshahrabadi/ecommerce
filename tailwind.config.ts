@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         primary: '#FF096A',
+        secondary: '#00ECB4',
       },
       maxWidth: {
         '8xl': '90rem', // 1440px
