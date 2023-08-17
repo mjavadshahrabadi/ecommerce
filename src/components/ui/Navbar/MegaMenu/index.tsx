@@ -4,6 +4,7 @@ import { ChevronDown } from 'react-bootstrap-icons'
 import { MegaMenuContainer } from '@/components/ui/Navbar/MegaMenu/MegaMenuContainer'
 export const MegaMenu: FC = (): ReactElement => {
   const [hovered, setHovered] = useState<boolean>(false)
+  const [selectedCategory, setSelectedCategory] = useState<number>(1)
 
   const hoverHandler = useCallback(
     (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
@@ -13,6 +14,7 @@ export const MegaMenu: FC = (): ReactElement => {
           break
         case 'mouseleave':
           setHovered(false)
+          setSelectedCategory(1)
           break
       }
     },
@@ -30,7 +32,11 @@ export const MegaMenu: FC = (): ReactElement => {
         دسته بندی کالاها
       </h4>
 
-      <MegaMenuContainer hovered={hovered} />
+      <MegaMenuContainer
+        hovered={hovered}
+        selectedCategory={selectedCategory}
+        setSelectedCategory={setSelectedCategory}
+      />
     </div>
   )
 }
