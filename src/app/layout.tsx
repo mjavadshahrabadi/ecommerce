@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import React from 'react'
 import localFont from 'next/font/local'
+import { Advertise } from '@/components/ui/Advertise'
 
 // custom font - iran yekan
 const yekan = localFont({
@@ -21,7 +22,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fa">
-      <body className={yekan.className}>{children}</body>
+      <body className={yekan.className}>
+        <main>
+          <Advertise
+            src={[
+              '/gif/advertise/ads-1.gif',
+              '/gif/advertise/ads-1-mobile.gif',
+            ]}
+          />
+          {children}
+        </main>
+      </body>
     </html>
   )
 }
