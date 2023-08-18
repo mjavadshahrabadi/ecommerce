@@ -20,9 +20,11 @@ export const ProductList: FC<ProductListProps> = ({
       {selectedList &&
         selectedList.data.map((ele) => (
           <div className="">
-            <h2 className="text-primary font-semibold mb-4">{ele.title}</h2>
+            <h2 className="text-gray-600 text-sm font-semibold mb-4 cursor-pointer hover:text-primary duration-300 ease-out">
+              {ele.title}
+            </h2>
             {ele.items?.map((product) => (
-              <h5 className="my-2 text-sm last:mb-4 cursor-pointer text-gray-600 hover:text-gray-900 duration-300 ease-out">
+              <h5 className="my-2 text-[13px] last:mb-4 cursor-pointer text-gray-500 hover:text-primary duration-300 ease-out">
                 {product}
               </h5>
             ))}
