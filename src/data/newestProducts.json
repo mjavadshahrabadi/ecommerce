@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "محصول شماره یک",
+    "price": "۱۲۳,۰۰۰",
+    "offPrice": "۷۵,۰۰۰",
+    "tag": "ارسال رایگان",
+    "off": "۲۰٪",
+    "imgSrc": "/newest/img-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "محصول شماره دوم",
+    "price": "۳۴۵,۵۰۰",
+    "offPrice": "۱۴۸,۰۰۰",
+    "tag": "",
+    "off": "۳۵٪",
+    "imgSrc": "/newest/img-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "محصول شماره سوم",
+    "price": "۶۵,۰۰۰",
+    "offPrice": "۵۸,۵۵",
+    "tag": "ارسال رایگان",
+    "off": "۱۰٪",
+    "imgSrc": "/newest/img-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "محصول شماره چهارم",
+    "price": "۱۵۱,۰۰۰",
+    "offPrice": "۹۸,۰۰",
+    "tag": "",
+    "off": "۱۵٪",
+    "imgSrc": "/newest/img-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "محصول شماره پنجم",
+    "price": "۳۴۱,۰۰۰",
+    "offPrice": "۳۱۰,۰۰۰",
+    "tag": "ارسال رایگان",
+    "off": "۲۰٪",
+    "imgSrc": "/newest/img-5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "محصول شماره ششم",
+    "price": "۷۵,۰۰۰",
+    "offPrice": "۵۵,۰۰۰",
+    "tag": "",
+    "off": "۱۰٪",
+    "imgSrc": "/newest/img-6.jpg"
+  }
+]

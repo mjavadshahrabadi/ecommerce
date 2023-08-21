@@ -1,4 +1,4 @@
-import React, { FC, ReactElement, useEffect } from 'react'
+import React, { FC, ReactElement } from 'react'
 import Image from 'next/image'
 import { useTimer } from 'react-timer-hook'
 import { Timer } from '@/components/home/ShopSuggest/Timer'
@@ -21,7 +21,6 @@ export const SuggestItem: FC<SuggestItem> = ({
 }): ReactElement => {
   const time: Date = new Date()
   time.setSeconds(time.getSeconds() + 3600 * 48) // 10 minutes timer
-  console.log(time)
   const { totalSeconds, seconds, minutes, hours, days, start } = useTimer({
     autoStart: true,
     expiryTimestamp: time,

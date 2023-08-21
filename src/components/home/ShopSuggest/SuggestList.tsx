@@ -10,42 +10,40 @@ import { SuggestItem } from '@/components/home/ShopSuggest/SuggestItem'
 
 export const SuggestList: FC = (): ReactElement => {
   return (
-    <>
-      <Swiper
-        dir="rtl"
-        slidesPerView={4}
-        spaceBetween={30}
-        freeMode={true}
-        pagination={{
-          clickable: true,
-        }}
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true,
-        }}
-        grabCursor={true}
-        modules={[FreeMode, Autoplay]}
-        className="mySwiper"
-      >
-        {data &&
-          data.map((product) => (
-            <SwiperSlide
-              style={{ width: '250x', height: '300px' }}
-              className="rounded-md"
-            >
-              <SuggestItem
-                id={product.id}
-                imgSrc={product.imgSrc}
-                off={product.off}
-                price={product.price}
-                offPrice={product.offPrice}
-                title={product.title}
-                key={product.id}
-              />
-            </SwiperSlide>
-          ))}
-      </Swiper>
-    </>
+    <Swiper
+      dir="rtl"
+      slidesPerView={4}
+      spaceBetween={30}
+      freeMode={true}
+      pagination={{
+        clickable: true,
+      }}
+      autoplay={{
+        delay: 4000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      }}
+      grabCursor={true}
+      modules={[FreeMode, Autoplay]}
+      className="mySwiper rounded-md"
+    >
+      {data &&
+        data.map((product) => (
+          <SwiperSlide
+            style={{ width: '250x', height: '300px' }}
+            className="rounded-md"
+          >
+            <SuggestItem
+              id={product.id}
+              imgSrc={product.imgSrc}
+              off={product.off}
+              price={product.price}
+              offPrice={product.offPrice}
+              title={product.title}
+              key={product.id}
+            />
+          </SwiperSlide>
+        ))}
+    </Swiper>
   )
 }
