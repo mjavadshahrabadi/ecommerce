@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "آرایشی",
+    "imgSrc": "/categories/img-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "بهداشتی",
+    "imgSrc": "/categories/img-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "عطر",
+    "imgSrc": "/categories/img-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "مو",
+    "imgSrc": "/categories/img-4.jpg"
+  }
+]

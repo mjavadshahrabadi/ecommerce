@@ -22,7 +22,7 @@ export const NewestProducts: FC = (): ReactElement => {
         </h3>
         <button
           type="button"
-          className="py-2 px-3 bg-white text-primary text-sm bg-transparent border-2 border-white hover:border-primary w-fit rounded-md hover:bg-primary hover:text-white font-semibold duration-300 ease-out"
+          className="py-2 px-3 bg-white text-primary text-[12px] bg-transparent border-2 border-white hover:border-primary w-fit rounded-md hover:bg-primary hover:text-white font-semibold duration-300 ease-out"
         >
           مشاهده همه
         </button>

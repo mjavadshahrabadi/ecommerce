@@ -3,7 +3,7 @@ import React, { FC, ReactElement } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { FreeMode, Autoplay } from 'swiper/modules'
 import { NewestItem } from '@/components/home/Newest/NewestItem'
-import newestProducts from '../../../data/newestProducts.json'
+import newestProducts from '@/data/newestProducts.json'
 
 export const NewestList: FC = (): ReactElement => {
   return (

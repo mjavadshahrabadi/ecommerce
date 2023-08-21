@@ -1,5 +1,5 @@
 import React, { FC, ReactElement, useMemo } from 'react'
-import data from '../../../../data/megaMenuProducts.json'
+import data from '@/data/megaMenuProducts.json'
 import { CategoriesItem } from '@/components/ui/Navbar/MegaMenu/CategoriesItem'
 
 interface CategoriesList {

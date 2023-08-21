@@ -2,7 +2,7 @@
 import React, { FC, ReactElement, useRef, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { FreeMode, Autoplay } from 'swiper/modules'
-import data from '../../../data/shopSuggest.json'
+import data from '@/data/shopSuggest.json'
 
 import 'swiper/css'
 import 'swiper/css/free-mode'

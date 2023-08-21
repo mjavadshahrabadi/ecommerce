@@ -1,8 +1,9 @@
 import { Slider } from '@/components/home/Slider'
 import { OffersList } from '@/components/home/OffersList'
 import { ShopSuggest } from '@/components/home/ShopSuggest'
-import { Advertise } from '@/components/home/advertise'
+import { Advertise } from '@/components/home/Advertise'
 import { NewestProducts } from '@/components/home/Newest'
+import { Categories } from '@/components/home/Categories'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <ShopSuggest />
       <Advertise />
       <NewestProducts />
+      <Categories />
     </section>
   )
 }
