@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "عنوان مقاله",
+    "imgSrc": "/articles/img-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "عنوان مقاله",
+    "imgSrc": "/articles/img-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "عنوان مقاله",
+    "imgSrc": "/articles/img-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "عنوان مقاله",
+    "imgSrc": "/articles/img-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "عنوان مقاله",
+    "imgSrc": "/articles/img-5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "عنوان مقاله",
+    "imgSrc": "/articles/img-6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "عنوان مقاله",
+    "imgSrc": "/articles/img-7.jpg"
+  }
+]

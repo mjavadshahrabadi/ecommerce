@@ -5,6 +5,9 @@ import localFont from 'next/font/local'
 import { Advertise } from '@/components/ui/Advertise'
 import { Navbar } from '@/components/ui/Navbar'
 
+import 'swiper/css'
+import 'swiper/css/free-mode'
+
 // custom font - iran yekan
 const yekan = localFont({
   src: '../assets/fonts/yekan.woff2',

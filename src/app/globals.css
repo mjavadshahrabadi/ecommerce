@@ -10,6 +10,7 @@
     max-height: 500px;
     overflow: hidden;
   }
+
   .bottomShadow {
     box-shadow: 1px -75px 117px -15px rgba(0, 0, 0, 0.75) inset;
     -webkit-box-shadow: 1px -75px 117px -15px rgba(0, 0, 0, 0.75) inset;

@@ -4,8 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { FreeMode, Autoplay } from 'swiper/modules'
 import data from '@/data/shopSuggest.json'
 
-import 'swiper/css'
-import 'swiper/css/free-mode'
 import { SuggestItem } from '@/components/home/ShopSuggest/SuggestItem'
 
 export const SuggestList: FC = (): ReactElement => {
