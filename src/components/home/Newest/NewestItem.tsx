@@ -33,12 +33,13 @@ export const NewestItem: FC<NewestItem> = ({
       </div>
       <h4 className="text-gray-700 text-sm text-center px-4">{title}</h4>
       <div>
-        {offPrice && off && (
-          <h5 className="text-gray-600 text-sm">
-            <span className="line-through">{offPrice}</span> تومان
-          </h5>
+        <h5 className="text-gray-600 text-sm">
+          <span className="line-through">{price}</span> تومان
+        </h5>
+
+        {offPrice && (
+          <h5 className="text-primary text-sm mt-2">{offPrice} تومان</h5>
         )}
-        <h5 className="text-primary text-sm">۵۰۰,۰۰۰ تومان</h5>
       </div>
 
       <div className="absolute flex flex-col space-y-2 -top-3 right-2 text-[15px] ">

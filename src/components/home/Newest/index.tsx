@@ -1,10 +1,10 @@
 import React, { FC, ReactElement } from 'react'
 import Image from 'next/image'
-import { NewestList } from '@/components/Newest/NewestList'
+import { NewestList } from '@/components/home/Newest/NewestList'
 
 export const NewestProducts: FC = (): ReactElement => {
   return (
-    <div className="max-w-8xl mx-auto mt-8 grid grid-cols-10 p-6 bg-gray-200 shadow-md">
+    <div className="max-w-8xl mx-auto mt-8 grid grid-cols-10 p-6 bg-gray-200 shadow-md rounded-md">
       <div className="col-span-8">
         <NewestList />
       </div>

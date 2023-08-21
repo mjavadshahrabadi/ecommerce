@@ -2,7 +2,7 @@ import { Slider } from '@/components/home/Slider'
 import { OffersList } from '@/components/home/OffersList'
 import { ShopSuggest } from '@/components/home/ShopSuggest'
 import { Advertise } from '@/components/home/advertise'
-import { NewestProducts } from '@/components/Newest'
+import { NewestProducts } from '@/components/home/Newest'
 
 export default function Home() {
   return (

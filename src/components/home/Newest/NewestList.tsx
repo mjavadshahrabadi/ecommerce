@@ -2,8 +2,8 @@
 import React, { FC, ReactElement } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { FreeMode, Autoplay } from 'swiper/modules'
-import { NewestItem } from '@/components/Newest/NewestItem'
-import newestProducts from '../../data/newestProducts.json'
+import { NewestItem } from '@/components/home/Newest/NewestItem'
+import newestProducts from '../../../data/newestProducts.json'
 
 export const NewestList: FC = (): ReactElement => {
   return (
@@ -26,7 +26,7 @@ export const NewestList: FC = (): ReactElement => {
     >
       {newestProducts &&
         newestProducts.map((prod) => (
-          <SwiperSlide className="rounded-md">
+          <SwiperSlide className="rounded-md" id={prod.id + ''}>
             <NewestItem
               id={prod.id}
               imgSrc={prod.imgSrc}
