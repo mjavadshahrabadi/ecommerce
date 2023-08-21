@@ -5,6 +5,7 @@ import { Advertise } from '@/components/home/Advertise'
 import { NewestProducts } from '@/components/home/Newest'
 import { Categories } from '@/components/home/Categories'
 import { Brands } from '@/components/home/Brands'
+import { Bestselling } from '@/components/home/ Bestselling'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <NewestProducts />
       <Categories />
       <Brands />
+      <Bestselling />
     </section>
   )
 }
