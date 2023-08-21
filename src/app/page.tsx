@@ -4,6 +4,7 @@ import { ShopSuggest } from '@/components/home/ShopSuggest'
 import { Advertise } from '@/components/home/Advertise'
 import { NewestProducts } from '@/components/home/Newest'
 import { Categories } from '@/components/home/Categories'
+import { Brands } from '@/components/home/Brands'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Advertise />
       <NewestProducts />
       <Categories />
+      <Brands />
     </section>
   )
 }

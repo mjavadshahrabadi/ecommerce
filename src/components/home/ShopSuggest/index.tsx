@@ -4,11 +4,11 @@ import { SuggestList } from '@/components/home/ShopSuggest/SuggestList'
 
 export const ShopSuggest: FC = (): ReactElement => {
   return (
-    <div className="bg-gradient-to-r from-primary to-pink-500 w-full p-6 rounded-md mt-8 max-w-8xl mx-auto flex items-center">
-      <div className="w-4/5">
+    <div className="bg-gradient-to-r from-primary to-pink-500 w-full p-6 rounded-md mt-8 max-w-8xl mx-auto grid grid-cols-10">
+      <div className="col-span-8">
         <SuggestList />
       </div>
-      <div className="w-1/5 flex flex-col items-center space-y-3">
+      <div className="col-span-2 flex flex-col items-center space-y-6">
         <Image
           src="/vector3d/offer-suggest.png"
           alt="پیشنهاد فروشگاه"

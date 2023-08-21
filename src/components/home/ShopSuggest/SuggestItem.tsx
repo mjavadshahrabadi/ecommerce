@@ -27,7 +27,7 @@ export const SuggestItem: FC<SuggestItem> = ({
   })
 
   return (
-    <div className="flex flex-col items-center p-1 overflow-hidden rounded-md space-y-2 relative">
+    <div className="flex flex-col items-center py-4 overflow-hidden rounded-md space-y-2 relative">
       <div className="w-[150px] h-[150px] relative">
         <Image
           src={imgSrc}

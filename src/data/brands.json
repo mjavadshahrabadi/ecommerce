@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "brand-1",
+    "imgSrc": "/brands/img-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "brand-2",
+    "imgSrc": "/brands/img-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "brand-3",
+    "imgSrc": "/brands/img-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "brand-4",
+    "imgSrc": "/brands/img-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "brand-5",
+    "imgSrc": "/brands/img-5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "brand-6",
+    "imgSrc": "/brands/img-6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "brand-7",
+    "imgSrc": "/brands/img-7.jpg"
+  },
+  {
+    "id": 1,
+    "title": "brand-8",
+    "imgSrc": "/brands/img-8.jpg"
+  },
+  {
+    "id": 1,
+    "title": "brand-9",
+    "imgSrc": "/brands/img-9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "brand-10",
+    "imgSrc": "/brands/img-10.jpg"
+  }
+]

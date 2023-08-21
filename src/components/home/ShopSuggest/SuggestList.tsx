@@ -29,10 +29,7 @@ export const SuggestList: FC = (): ReactElement => {
     >
       {data &&
         data.map((product) => (
-          <SwiperSlide
-            style={{ width: '250x', height: '300px' }}
-            className="rounded-md"
-          >
+          <SwiperSlide className="rounded-md">
             <SuggestItem
               id={product.id}
               imgSrc={product.imgSrc}
