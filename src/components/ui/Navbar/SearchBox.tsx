@@ -3,7 +3,7 @@ import { Search } from 'react-bootstrap-icons'
 
 export const SearchBox: FC = (): ReactElement => {
   return (
-    <div className="relative w-full">
+    <div className="hidden lg:block relative w-full">
       <input
         type="text"
         name="searchbox"
