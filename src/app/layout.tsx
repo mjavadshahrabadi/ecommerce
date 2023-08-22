@@ -16,8 +16,11 @@ const yekan = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'Ecommerce',
+  title: 'فروشگاه معتبر خرید محصولات آرایشی و بهداشتی و عطر | روژا شاپ',
   description: 'javad shahrabadi - m.javadshahrabadi@gmail.com',
+  icons: {
+    icon: '/img/brand/fav-icon.png',
+  },
 }
 
 export default function RootLayout({
