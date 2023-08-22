@@ -4,6 +4,7 @@ import React from 'react'
 import localFont from 'next/font/local'
 import { Advertise } from '@/components/ui/Advertise'
 import { Navbar } from '@/components/ui/Navbar'
+import { Footer } from '@/components/ui/Footer'
 
 import 'swiper/css'
 import 'swiper/css/free-mode'
@@ -36,6 +37,7 @@ export default function RootLayout({
           />
           <Navbar />
           {children}
+          <Footer />
         </main>
       </body>
     </html>
