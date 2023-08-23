@@ -9,10 +9,25 @@ import { SuggestItem } from '@/components/home/ShopSuggest/SuggestItem'
 export const SuggestList: FC = (): ReactElement => {
   return (
     <Swiper
+      breakpoints={{
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        // When window width is >= 1024px
+        1280: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        },
+      }}
       dir="rtl"
-      slidesPerView={4}
-      spaceBetween={30}
       freeMode={true}
+      spaceBetween={10}
       pagination={{
         clickable: true,
       }}
