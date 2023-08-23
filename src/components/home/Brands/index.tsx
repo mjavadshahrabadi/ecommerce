@@ -4,7 +4,7 @@ import { BrandsList } from '@/components/home/Brands/BrandsList'
 export const Brands: FC = (): ReactElement => {
   return (
     <div className="mx-4">
-      <div className="lg:grid lg:grid-cols-10 max-w-8xl mx-auto mt-8 p-5 border-2 border-gray-200 rounded-md">
+      <div className="lg:grid lg:grid-cols-10 max-w-8xl mx-auto mt-5 lg:mt-8 p-5 border-2 border-gray-200 rounded-md">
         <div className="lg:col-span-8 bg-white">
           <BrandsList />
         </div>

@@ -20,7 +20,7 @@ export const NewestItem: FC<NewestItem> = ({
   price = '',
 }): ReactElement => {
   return (
-    <div className="flex flex-col items-center p-1 overflow-hidden rounded-md relative h-full space-y-5 shadow-sm">
+    <div className="flex flex-col items-center px-3 py-6 overflow-hidden rounded-md relative h-full space-y-5 shadow-sm">
       <div className="w-[160px] h-[160px] relative">
         <Image
           src={imgSrc}

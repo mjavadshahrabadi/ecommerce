@@ -4,7 +4,7 @@ import categories from '@/data/categories.json'
 export const Categories: FC = (): ReactElement => {
   return (
     <ul
-      className="max-w-8xl mx-auto grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-8 px-4 2xl:px-0"
+      className="max-w-8xl mx-auto grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8 px-4 2xl:px-0"
       dir="rtl"
     >
       {categories &&
