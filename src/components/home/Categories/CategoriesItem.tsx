@@ -11,7 +11,7 @@ export const CategoriesItem: FC<CategoriesItemProps> = ({
   imgSrc,
 }): ReactElement => {
   return (
-    <li className="relative">
+    <li className="relative rounded-md overflow-hidden">
       <Image
         src={imgSrc}
         alt={title}
