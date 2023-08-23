@@ -5,10 +5,10 @@ import { EnvelopeAt, GeoAlt } from 'react-bootstrap-icons'
 
 export const Footer: FC = (): ReactElement => {
   return (
-    <footer className="mt-32 relative bg-red-50 w-full">
+    <footer className="mt-4 lg:mt-32 relative bg-red-50 w-full p-4 2xl:px-0 pb-10">
       <ContactUs />
-      <div className="max-w-8xl mx-auto mt-5 grid grid-cols-12 gap-14">
-        <div className="col-span-2 flex space-x-4 items-start">
+      <div className="max-w-8xl mx-auto mt-5 grid grid-cols-1 xl:grid-cols-12 gap-10 lg:gap-14">
+        <div className="lg:col-span-2 flex space-x-4 items-center justify-center lg:items-start order-5 lg:-order-5">
           <Image
             src="/license/rezi.webp"
             alt="e-namad"
@@ -24,7 +24,7 @@ export const Footer: FC = (): ReactElement => {
             sizes="100vw"
           />
         </div>
-        <div className="flex flex-col items-end space-y-5 col-span-2">
+        <div className="flex flex-col items-center lg:items-end space-y-5 lg:col-span-2">
           <p className="text-gray-500 text-[14px] cursor-pointer hover:text-primary duration-300 ease-out">
             حریم خصوصی
           </p>
@@ -42,7 +42,7 @@ export const Footer: FC = (): ReactElement => {
           </p>
         </div>
 
-        <div className="flex flex-col items-end space-y-5 col-span-2">
+        <div className="flex flex-col items-center lg:items-end space-y-5 lg:col-span-2">
           <p className="text-gray-500 text-[14px] cursor-pointer hover:text-primary duration-300 ease-out">
             تماس با ما
           </p>
@@ -59,7 +59,7 @@ export const Footer: FC = (): ReactElement => {
             English
           </p>
         </div>
-        <div className="flex flex-col space-y-4 items-end col-span-3">
+        <div className="flex flex-col space-y-4 items-center lg:items-end lg:col-span-3 -order-1 lg:order-none">
           <h4 className="text-gray-800 font-semibold text-[14px]">
             زیبا بمانید
           </h4>
@@ -71,7 +71,7 @@ export const Footer: FC = (): ReactElement => {
             ايرانی در محيط آنلاين است.
           </p>
         </div>
-        <div className="flex flex-col items-end space-y-5 col-span-3">
+        <div className="flex flex-col items-center lg:items-end space-y-5 lg:col-span-3 -order-2 lg:order-1">
           <Image
             src="/img/brand/logo.png"
             alt="logo-market"

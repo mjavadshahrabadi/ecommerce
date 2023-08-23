@@ -11,7 +11,7 @@ import {
 export const ContactUs: FC = (): ReactElement => {
   return (
     <div
-      className="max-w-8xl relative -top-[55px] mx-auto bg-black rounded-md py-6 grid grid-cols-3 place-items-center"
+      className="max-w-8xl relative -top-[55px] mx-auto bg-black rounded-md py-6 lg:grid grid-cols-3 place-items-center hidden"
       dir="rtl"
     >
       <div className="flex flex-col space-y-3 items-end">
