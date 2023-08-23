@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export const Advertise: FC = (): ReactElement => {
   return (
-    <div className="max-w-8xl mx-auto grid grid-cols-2 grid-rows-1 mt-8 gap-4">
+    <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 grid-rows-1 mt-5 lg:mt-8 gap-4 px-4 2xl:px-0">
       <div>
         <Image
           src="/img/advertise/img-1.jpg"

@@ -5,7 +5,7 @@ import { SuggestList } from '@/components/home/ShopSuggest/SuggestList'
 export const ShopSuggest: FC = (): ReactElement => {
   return (
     <div className="px-4 2xl:px-0">
-      <div className="bg-gradient-to-r from-primary to-pink-500 w-full rounded-md mt-8 max-w-8xl p-5 lg:mx-auto lg:grid lg:grid-cols-10">
+      <div className="bg-gradient-to-r from-primary to-pink-500 w-full rounded-md mt-5 lg:mt-8 max-w-8xl p-5 lg:mx-auto lg:grid lg:grid-cols-10">
         <div className="lg:col-span-8">
           <SuggestList />
         </div>
