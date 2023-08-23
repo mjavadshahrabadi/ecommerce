@@ -3,7 +3,7 @@ import { SidebarItem } from '@/components/ui/Navbar/Sidebar/SidebarItem'
 
 export const SidebarList: FC = (): ReactElement => {
   return (
-    <ul className="flex flex-col" dir="rtl">
+    <ul className="flex flex-col w-full" dir="rtl">
       <SidebarItem title="برند" type="single" />
       <SidebarItem
         title="عطر"

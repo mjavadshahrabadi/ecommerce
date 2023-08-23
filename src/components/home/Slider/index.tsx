@@ -9,8 +9,24 @@ import 'swiper/css/pagination'
 
 export const Slider: FC = (): ReactElement => {
   return (
-    <div className="w-[100vw] h-[500px]">
+    <div className="h-[200px] md:h-auto">
       <Swiper
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+          },
+
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+          },
+          // When window width is >= 1024px
+          1024: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+          },
+        }}
         direction="horizontal"
         effect="flip"
         slidesPerView={1}
@@ -36,7 +52,7 @@ export const Slider: FC = (): ReactElement => {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto rounded-md object-right md:object-cover"
           />
         </SwiperSlide>
         <SwiperSlide className="cursor-pointer">
@@ -46,7 +62,7 @@ export const Slider: FC = (): ReactElement => {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto rounded-md object-right md:object-cover"
           />
         </SwiperSlide>
         <SwiperSlide className="cursor-pointer">
@@ -56,7 +72,7 @@ export const Slider: FC = (): ReactElement => {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto rounded-md object-right md:object-cover"
           />
         </SwiperSlide>
         <SwiperSlide className="cursor-pointer">
@@ -66,7 +82,7 @@ export const Slider: FC = (): ReactElement => {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto rounded-md object-right md:object-cover"
           />
         </SwiperSlide>
         <SwiperSlide className="cursor-pointer">
@@ -76,7 +92,7 @@ export const Slider: FC = (): ReactElement => {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto rounded-md object-right md:object-cover"
           />
         </SwiperSlide>
         <SwiperSlide className="cursor-pointer">
@@ -86,7 +102,7 @@ export const Slider: FC = (): ReactElement => {
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto rounded-md object-right md:object-cover"
           />
         </SwiperSlide>
       </Swiper>

@@ -13,14 +13,14 @@ export const Sidebar: FC<SidebarProps> = ({
   setIsSidebarOpen,
 }) => {
   return (
-    <aside className="block lg:hidden">
-      <nav
-        className={`top-0 right-0 w-[60vw] lg:w-[35vw] bg-white  px-2 py-5 space-y-4 fixed h-full z-40 ease-in-out duration-300 shadow-md ${
-          isSidebarOpen ? 'translate-x-0 ' : 'translate-x-full'
-        }`}
-      >
+    <aside
+      className={`top-0 right-0 w-[100%] lg:w-[35vw] bg-white  px-2 py-5 space-y-4 fixed h-full z-40 ease-in-out duration-300 shadow-md overflow-x-hidden ${
+        isSidebarOpen ? 'translate-x-0 ' : 'translate-x-full'
+      }`}
+    >
+      <nav>
         {isSidebarOpen && (
-          <div className="flex items-center justify-between px-1">
+          <div className="flex items-center justify-between px-1 mb-4">
             <button
               className="text-4xl cursor-pointer p-1 hover:bg-gray-200 hover:text-gray-800 rounded-md duration-200 ease-out"
               onClick={() => setIsSidebarOpen(!isSidebarOpen)}

@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="fa">
       <body className={yekan.className}>
-        <main>
+        <main className="overflow-hidden">
           <Advertise
             src={[
               '/gif/advertise/ads-1.gif',
