@@ -9,8 +9,27 @@ export const BrandsList: FC = (): ReactElement => {
   return (
     <Swiper
       dir="rtl"
-      slidesPerView={8}
-      spaceBetween={30}
+      breakpoints={{
+        10: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        640: {
+          slidesPerView: 5,
+          spaceBetween: 20,
+        },
+
+        768: {
+          slidesPerView: 6,
+          spaceBetween: 20,
+        },
+        // When window width is >= 1024px
+        1280: {
+          slidesPerView: 8,
+          spaceBetween: 20,
+        },
+      }}
+      spaceBetween={10}
       freeMode={true}
       pagination={{
         clickable: true,
