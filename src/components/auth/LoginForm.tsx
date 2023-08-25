@@ -80,6 +80,13 @@ export const LoginForm: FC = (): ReactElement => {
               ورود به حساب
             </button>
 
+            <h4
+              className="text-gray-600 text-[14px] flex items-end cursor-pointer hover:text-primary duration-300 ease-out"
+              onClick={handleFormType}
+            >
+              رمز عبور را فراموش کردید ؟
+            </h4>
+
             <button
               type="button"
               onClick={handleFormType}
