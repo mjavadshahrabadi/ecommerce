@@ -5,7 +5,7 @@ import { ReturnBtn } from '@/components/auth/ReturnBtn'
 
 export const AuthSection: FC = (): ReactElement => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-5 w-full h-screen relative overflow-y-scroll overflow-x-hidden">
+    <section className="grid grid-cols-1 lg:grid-cols-5 w-full h-screen relative overflow-y-scroll overflow-x-hidden">
       <div className="w-full h-full lg:col-span-2">
         <Image
           src="/auth/login.jpg"
@@ -21,6 +21,6 @@ export const AuthSection: FC = (): ReactElement => {
         <LoginForm />
       </div>
       <ReturnBtn />
-    </div>
+    </section>
   )
 }
