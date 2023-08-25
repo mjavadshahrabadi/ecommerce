@@ -2,18 +2,18 @@
 import React, { FC, ReactElement, useState } from 'react'
 
 export const LoginForm: FC = (): ReactElement => {
-  const [loginWithStaticPassword, setLoginWithStaticPassword] = useState(false)
+  const [loginWithStaticPassword, setLoginWithStaticPassword] = useState(true)
   const handleFormType = (): void => {
     setLoginWithStaticPassword((prev) => !prev)
   }
   return (
-    <form className="flex flex-col items-center justify-center w-full h-screen">
+    <form className="flex flex-col px-4 2xl:px-0 lg:items-center my-10 lg:my-0 lg:justify-center w-full lg:h-screen">
       {loginWithStaticPassword ? (
         <div className="flex flex-col items-end space-y-6">
           <h4 className="text-gray-800 text-lg font-semibold flex items-end">
             :) سلام روژایی عزیز
           </h4>
-          <div className="flex flex-col space-y-3 items-end">
+          <div className="flex flex-col space-y-3 items-end w-full">
             <label htmlFor="phone" className="text-gray-600 text-[15px]">
               لطفا شماره تماس خود را وارد نمایید
             </label>
@@ -21,7 +21,7 @@ export const LoginForm: FC = (): ReactElement => {
               type="text"
               id="phone"
               name="phone"
-              className="p-2 bg-gray-100 text-[14px] text-gray-600 focus:outline-0 w-[400px] rounded-md focus:ring-2 ring-primary duration-300 ease-out text-right"
+              className="p-2 bg-gray-100 text-[14px] text-gray-600 focus:outline-0 w-full lg:w-[400px] rounded-md focus:ring-2 ring-primary duration-300 ease-out text-right"
               placeholder="۰۹۱۲۱۲۳۴۵۶۷"
             />
           </div>
@@ -48,7 +48,7 @@ export const LoginForm: FC = (): ReactElement => {
           <h4 className="text-gray-800 text-lg font-semibold flex items-end">
             ورود با رمز عبور ثابت
           </h4>
-          <div className="flex flex-col space-y-3 items-end">
+          <div className="flex flex-col space-y-3 items-end w-full">
             <label htmlFor="phone" className="text-gray-600 text-[15px]">
               موبایل خود را وارد کنید
             </label>
@@ -56,11 +56,11 @@ export const LoginForm: FC = (): ReactElement => {
               type="text"
               id="phone"
               name="phone"
-              className="p-2 bg-gray-100 text-[14px] text-gray-600 focus:outline-0 w-[400px] rounded-md focus:ring-2 ring-primary duration-300 ease-out text-right"
+              className="p-2 bg-gray-100 text-[14px] text-gray-600 focus:outline-0 w-full lg:w-[400px] rounded-md focus:ring-2 ring-primary duration-300 ease-out text-right"
               placeholder="۰۹۱۲۱۲۳۴۵۶۷"
             />
           </div>
-          <div className="flex flex-col space-y-3 items-end">
+          <div className="flex flex-col space-y-3 items-end w-full">
             <label htmlFor="password" className="text-gray-600 text-[15px]">
               رمز عبور خود را وارد کنید
             </label>
@@ -68,7 +68,7 @@ export const LoginForm: FC = (): ReactElement => {
               type="password"
               id="password"
               name="password"
-              className="p-2 bg-gray-100 text-[14px] text-gray-600 focus:outline-0 w-[400px] rounded-md focus:ring-2 ring-primary duration-300 ease-out text-right"
+              className="p-2 bg-gray-100 text-[14px] text-gray-600 focus:outline-0 w-full lg:w-[400px] rounded-md focus:ring-2 ring-primary duration-300 ease-out text-right"
               placeholder="********"
             />
           </div>
