@@ -9,7 +9,7 @@ import { Bestselling } from '@/components/home/ Bestselling'
 import { LatestArticles } from '@/components/home/ LatestArticles'
 import { Benefits } from '@/components/home/Benefits'
 
-export default function Home() {
+export default function HomePage() {
   return (
     <section className="overflow-hidden">
       <Slider />

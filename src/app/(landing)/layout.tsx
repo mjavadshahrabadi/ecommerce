@@ -1,4 +1,4 @@
-import './globals.css'
+import '../globals.css'
 import type { Metadata } from 'next'
 import React from 'react'
 import localFont from 'next/font/local'
@@ -11,7 +11,7 @@ import 'swiper/css/free-mode'
 
 // custom font - iran yekan
 const yekan = localFont({
-  src: '../assets/fonts/yekan.woff2',
+  src: '../../assets/fonts/yekan.woff2',
   display: 'swap',
 })
 
