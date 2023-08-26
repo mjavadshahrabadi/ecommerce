@@ -12,7 +12,7 @@ export const LatestItem: FC<LatestItem> = ({
   title,
 }): ReactElement => {
   return (
-    <li className="grid grid-cols-7 gap-5 border-b p-4">
+    <li className="grid grid-cols-7 gap-5 border-b last:border-b-0 p-4">
       <p className="col-span-2 text-right truncate text-gray-800 text-sm">
         {title}
       </p>
