@@ -15,7 +15,7 @@ export const AdviceJumbotron: FC = (): ReactElement => {
         className="w-full h-auto"
       />
 
-      <div className="absolute z-50 inset-0 bg-gradient-to-tl from-pink-700 to-pink-300 opacity-60 flex items-center justify-center">
+      <div className="absolute z-40 inset-0 bg-gradient-to-tl from-pink-700 to-pink-300 opacity-60 flex items-center justify-center">
         <div className="flex flex-col items-center space-y-16">
           <h2 className="text-2xl font-semibold text-white">
             مشاوره رایگان آنلاین بهداشتی آرایشی عطر

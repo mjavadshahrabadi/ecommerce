@@ -5,7 +5,7 @@ import { EnvelopeAt, GeoAlt } from 'react-bootstrap-icons'
 
 export const Footer: FC = (): ReactElement => {
   return (
-    <footer className="mt-4 lg:mt-32 relative bg-red-50 w-full p-4 2xl:px-0 pb-10">
+    <footer className="relative bg-red-50 w-full p-4 2xl:px-0 pb-10">
       <ContactUs />
       <div className="max-w-8xl mx-auto mt-5 grid grid-cols-1 xl:grid-cols-12 gap-10 lg:gap-14">
         <div className="lg:col-span-2 flex space-x-4 items-center justify-center lg:items-start order-5 lg:-order-5">

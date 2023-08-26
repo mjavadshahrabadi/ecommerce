@@ -5,7 +5,7 @@ import { BenefitsItem } from '@/components/home/Benefits/BenefitsItem'
 export const Benefits: FC = (): ReactElement => {
   return (
     <ul
-      className="mt-5 lg:mt-8 max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-4 items-center justify-between px-4 2xl:px-0"
+      className="mb-8 lg:mb-24 mt-5 lg:mt-8 max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-4 items-center justify-between px-4 2xl:px-0"
       dir="rtl"
     >
       <BenefitsItem title="ضمانت اصالت کالا" subtitle="ضمانت اصالت کالا">

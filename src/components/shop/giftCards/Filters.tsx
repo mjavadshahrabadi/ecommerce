@@ -9,7 +9,10 @@ export const Filters: FC = (): ReactElement => {
   const [availableProducts, setAvailableProducts] = useState(false)
 
   return (
-    <div className="flex flex-col space-y-4 px-2" dir="rtl">
+    <div
+      className="flex flex-col space-y-4 px-2 bg-white py-4 rounded-md"
+      dir="rtl"
+    >
       <h3 className="text-gray-700 font-semibold mb-4">کارت های هدیه</h3>
       <Accordion datas={{ question: 'دسته بندی ها' }}>
         <h4 className="text-sm text-gray-600">کارت های هدیه</h4>
