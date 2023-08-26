@@ -11,7 +11,7 @@ export const CartContainer: FC = (): ReactElement => {
           width={0}
           height={0}
           sizes="100vw"
-          className="w-[300px] lg:w-[200px] h-auto"
+          className="w-[300px] lg:w-[300px] h-auto"
         />
         <h3 className="text-gray-700 text-lg font-semibold">
           !سبد خرید شما خالی است

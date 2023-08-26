@@ -7,7 +7,7 @@ export const LoginForm: FC = (): ReactElement => {
     setLoginWithStaticPassword((prev) => !prev)
   }
   return (
-    <form className="flex flex-col px-4 2xl:px-0 lg:items-center my-10 lg:my-0 lg:justify-center w-full lg:h-screen">
+    <form className="flex flex-col px-4 2xl:px-0 lg:items-center my-10 lg:my-0 lg:justify-center w-full lg:h-full">
       {loginWithStaticPassword ? (
         <div className="flex flex-col items-end space-y-6">
           <h4 className="text-gray-800 text-lg font-semibold flex items-end">

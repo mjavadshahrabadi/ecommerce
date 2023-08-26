@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "عنوان یکم",
+    "imgSrc": "/shop/gift-cards/img-1.jpg",
+    "startPrice": "۱۰۰,۰۰۰"
+  },
+  {
+    "id": 2,
+    "title": "عنوان دوم",
+    "imgSrc": "/shop/gift-cards/img-2.jpg",
+    "startPrice": "۱۰۰,۰۰۰"
+  },
+  {
+    "id": 3,
+    "title": "عنوان سوم",
+    "imgSrc": "/shop/gift-cards/img-3.jpg",
+    "startPrice": "۱۰۰,۰۰۰"
+  },
+  {
+    "id": 4,
+    "title": "عنوان چهارم",
+    "imgSrc": "/shop/gift-cards/img-4.jpg",
+    "startPrice": "۱۰۰,۰۰۰"
+  },
+  {
+    "id": 5,
+    "title": "عنوان پنجم",
+    "imgSrc": "/shop/gift-cards/img-5.jpg",
+    "startPrice": "۱۰۰,۰۰۰"
+  },
+  {
+    "id": 6,
+    "title": "عنوان ششم",
+    "imgSrc": "/shop/gift-cards/img-6.jpg",
+    "startPrice": "۱۰۰,۰۰۰"
+  },
+  {
+    "id": 7,
+    "title": "عنوان هفتم",
+    "imgSrc": "/shop/gift-cards/img-7.jpg",
+    "startPrice": "۱۰۰,۰۰۰"
+  },
+  {
+    "id": 8,
+    "title": "عنوان هشتم",
+    "imgSrc": "/shop/gift-cards/img-8.jpg",
+    "startPrice": "۱۰۰,۰۰۰"
+  },
+  {
+    "id": 9,
+    "title": "عنوان نهم",
+    "imgSrc": "/shop/gift-cards/img-3.jpg",
+    "startPrice": "۱۰۰,۰۰۰"
+  },
+  {
+    "id": 10,
+    "title": "عنوان دهم",
+    "imgSrc": "/shop/gift-cards/img-6.jpg",
+    "startPrice": "۱۰۰,۰۰۰"
+  },
+  {
+    "id": 11,
+    "title": "عنوان یازدهم",
+    "imgSrc": "/shop/gift-cards/img-1.jpg",
+    "startPrice": "۱۰۰,۰۰۰"
+  },
+  {
+    "id": 12,
+    "title": "عنوان دوازدهم",
+    "imgSrc": "/shop/gift-cards/img-5.jpg",
+    "startPrice": "۱۰۰,۰۰۰"
+  }
+]
