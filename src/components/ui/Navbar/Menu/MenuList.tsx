@@ -9,9 +9,11 @@ export const MenuList: FC = (): ReactElement => {
         <Fire className="w-5 h-5 text-gray-600 group-hover:text-primary duration-300 ease-out" />
       </MenuItem>
       <div className="border-r border-gray-200 h-6" />
-      <MenuItem title="وبلاگ روژا">
-        <Book className="w-5 h-5 text-gray-600 group-hover:text-primary duration-300 ease-out" />
-      </MenuItem>
+      <Link href="/blog">
+        <MenuItem title="وبلاگ روژا">
+          <Book className="w-5 h-5 text-gray-600 group-hover:text-primary duration-300 ease-out" />
+        </MenuItem>
+      </Link>
       <div className="border-r border-gray-200 h-6" />
       <Link href="/organizational-sales">
         <MenuItem title="فروش سازمانی">
