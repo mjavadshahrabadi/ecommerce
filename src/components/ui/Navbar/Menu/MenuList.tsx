@@ -13,9 +13,11 @@ export const MenuList: FC = (): ReactElement => {
         <Book className="w-5 h-5 text-gray-600 group-hover:text-primary duration-300 ease-out" />
       </MenuItem>
       <div className="border-r border-gray-200 h-6" />
-      <MenuItem title="فروش سازمانی">
-        <Building className="w-5 h-5 text-gray-600 group-hover:text-primary duration-300 ease-out" />
-      </MenuItem>
+      <Link href="/organizational-sales">
+        <MenuItem title="فروش سازمانی">
+          <Building className="w-5 h-5 text-gray-600 group-hover:text-primary duration-300 ease-out" />
+        </MenuItem>
+      </Link>
       <div className="border-r border-gray-200 h-6" />
       <Link href="/advice">
         <MenuItem title="مشاوره رایگان">
