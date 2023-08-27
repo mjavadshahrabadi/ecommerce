@@ -16,23 +16,23 @@ export const AdviceJumbotron: FC = (): ReactElement => {
       />
 
       <div className="absolute z-40 inset-0 bg-gradient-to-tl from-pink-700 to-pink-300 opacity-60 flex items-center justify-center">
-        <div className="flex flex-col items-center space-y-16">
-          <h2 className="text-2xl font-semibold text-white">
+        <div className="flex flex-col items-center space-y-8 lg:space-y-16">
+          <h2 className="text-xl lg:text-2xl font-semibold text-white">
             مشاوره رایگان آنلاین بهداشتی آرایشی عطر
           </h2>
           <div className="flex flex-col items-center justify-center space-y-6">
             <h4 className="text-white font-semibold">
               چطور مشاوره آنلاین بگیرم؟
             </h4>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-0.5 lg:space-x-4">
               <Chip text="رزرو مشاوره ویدیویی">
-                <CameraReels className="text-white w-4 h-4 ml-2" />
+                <CameraReels className="text-white w-4 h-4 lg:ml-2 hidden lg:block" />
               </Chip>
               <Chip text="رزرو مشاوره صوتی">
-                <Headphones className="text-white w-5 h-5 ml-2" />
+                <Headphones className="text-white w-5 h-5 lg:ml-2 hidden lg:block" />
               </Chip>
               <Chip text="ثبت سوال جدید">
-                <Plus className="text-white w-6 h-6 ml-1" />
+                <Plus className="text-white w-6 h-6 ml-1 lg:ml-2 hidden lg:block" />
               </Chip>
             </div>
           </div>

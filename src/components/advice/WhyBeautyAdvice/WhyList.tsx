@@ -4,7 +4,7 @@ import { Headset, CheckCircle, CreditCard } from 'react-bootstrap-icons'
 
 export const WhyList: FC = (): ReactElement => {
   return (
-    <div className="bg-white p-5 rounded-2xl shadow-md border grid grid-cols-3 gap-5 mt-4">
+    <div className="bg-white p-5 rounded-2xl shadow-md border grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
       <WhyItem
         title="رایگان"
         subtitle="هزینه مشاوره برای شما رایگان است و زحمت حضور در صف های طولانی نوبت و هزینه رفت و آمد را ندارید"

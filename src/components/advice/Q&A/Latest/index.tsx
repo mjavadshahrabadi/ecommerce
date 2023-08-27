@@ -3,7 +3,7 @@ import { LatestItem } from '@/components/advice/Q&A/Latest/LatestItem'
 
 export const Latest: FC = (): ReactElement => {
   return (
-    <div className="flex flex-col space-y-4" dir="rtl">
+    <div className="flex flex-col space-y-4 mt-5 lg:mt-0" dir="rtl">
       <h4 className="text-gray-800 font-semibold">آخرین ها:</h4>
       <ul className="flex flex-col">
         <LatestItem

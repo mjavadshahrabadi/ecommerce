@@ -19,7 +19,9 @@ export const LatestItem: FC<LatestItem> = ({
       <p className="col-span-4 text-right truncate text-gray-600 text-sm">
         {description}
       </p>
-      <p className="col-span-1 truncatetext-gray-600 text-sm">{publishDate}</p>
+      <small className="col-span-1 truncatetext-gray-600 text-xs lg:text-sm">
+        {publishDate}
+      </small>
     </li>
   )
 }
