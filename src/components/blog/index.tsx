@@ -5,6 +5,7 @@ import { Perfume } from '@/components/blog/perfume'
 import { Hair } from '@/components/blog/hair'
 import { Nail } from '@/components/blog/nail'
 import { Footer } from '@/components/blog/footer'
+import { BlogSidebar } from '@/components/blog/navbar/Sidebar'
 
 export const BlogSection: FC = (): ReactElement => {
   return (

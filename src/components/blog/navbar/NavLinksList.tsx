@@ -3,7 +3,7 @@ import { NavLinksItem } from '@/components/blog/navbar/NavLinksItem'
 
 export const NavLinksList: FC = (): ReactElement => {
   return (
-    <ul className="flex flex-row-reverse items-center space-x-4">
+    <ul className="lg:flex flex-row-reverse items-center space-x-4 hidden">
       <NavLinksItem title="آرایشی و زیبایی" />
       <NavLinksItem title="پوست" />
       <NavLinksItem title="عطر" />
