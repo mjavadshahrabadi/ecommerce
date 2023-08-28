@@ -1,10 +1,14 @@
 import React, { FC, ReactElement } from 'react'
 import Image from 'next/image'
 import { Calendar3 } from 'react-bootstrap-icons'
+import {
+  ArticleCard,
+  ArticleCardsContainer,
+} from '@/components/blog/articles/ArticleCardsContainer'
 
 export const Articles: FC = (): ReactElement => {
   return (
-    <div className="max-w-6xl mx-auto mt-8">
+    <div className="max-w-6xl mx-auto mt-6">
       <div className="grid grid-cols-8 items-start gap-4" dir="rtl">
         <div className="overflow-hidden rounded-md col-span-4 relative cursor-pointer">
           <Image
@@ -110,8 +114,10 @@ export const Articles: FC = (): ReactElement => {
               </div>
             </div>
           </div>
+          هنوا
         </div>
       </div>
+      <ArticleCardsContainer />
     </div>
   )
 }
