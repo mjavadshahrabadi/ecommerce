@@ -1,10 +1,7 @@
 import React, { FC, ReactElement } from 'react'
 import Image from 'next/image'
 import { Calendar3 } from 'react-bootstrap-icons'
-import {
-  ArticleCard,
-  ArticleCardsContainer,
-} from '@/components/blog/articles/ArticleCardsContainer'
+import { ArticleCardsContainer } from '@/components/blog/articles/ArticleCardsContainer'
 
 export const Articles: FC = (): ReactElement => {
   return (
@@ -114,7 +111,6 @@ export const Articles: FC = (): ReactElement => {
               </div>
             </div>
           </div>
-          هنوا
         </div>
       </div>
       <ArticleCardsContainer />
