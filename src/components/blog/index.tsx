@@ -2,6 +2,9 @@ import React, { FC, ReactElement } from 'react'
 import { Navbar } from '@/components/blog/navbar'
 import { Articles } from '@/components/blog/articles'
 import { Perfume } from '@/components/blog/perfume'
+import { Hair } from '@/components/blog/hair'
+import { Nail } from '@/components/blog/nail'
+import { Footer } from '@/components/blog/footer'
 
 export const BlogSection: FC = (): ReactElement => {
   return (
@@ -9,6 +12,9 @@ export const BlogSection: FC = (): ReactElement => {
       <Navbar />
       <Articles />
       <Perfume />
+      <Hair />
+      <Nail />
+      <Footer />
     </section>
   )
 }

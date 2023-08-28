@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export const Perfume: FC = (): ReactElement => {
   return (
-    <div className="w-full p-5 bg-gray-500 mt-10">
+    <div className="w-full p-10 bg-gray-500 mt-10">
       <div className="max-w-6xl mx-auto flex flex-col space-y-4">
         <div className="flex items-center justify-between">
           <button

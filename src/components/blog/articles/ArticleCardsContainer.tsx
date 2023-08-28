@@ -5,7 +5,7 @@ import { Clock, Person } from 'react-bootstrap-icons'
 export const ArticleCardsContainer: FC = (): ReactElement => {
   return (
     <div className="mt-10 grid grid-cols-2 gap-5">
-      <div className="flex flex-col space-y-4 bg-white shadow-md border rounded-md p-3">
+      <div className="flex flex-col space-y-4 bg-white shadow-md rounded-md p-3">
         <div className="flex items-center justify-between" dir="rtl">
           <h4 className="text-blue-400 text-[15px] font-semibold">
             آرایشی بهداشتی
@@ -92,7 +92,7 @@ export const ArticleCardsContainer: FC = (): ReactElement => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col space-y-4 bg-white shadow-md border rounded-md p-3">
+      <div className="flex flex-col space-y-4 bg-white shadow-md  rounded-md p-3">
         <div className="flex items-center justify-between" dir="rtl">
           <h4 className="text-orange-400 text-[15px] font-semibold">
             مراقبت از پوست
