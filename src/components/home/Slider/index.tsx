@@ -57,7 +57,7 @@ export const Slider: FC = (): ReactElement => {
         </SwiperSlide>
         <SwiperSlide className="cursor-pointer">
           <Image
-            src="/sliders/slider-2.gif"
+            src="/sliders/slider-2.jpg"
             alt="slider-2"
             width="0"
             height="0"
@@ -67,7 +67,7 @@ export const Slider: FC = (): ReactElement => {
         </SwiperSlide>
         <SwiperSlide className="cursor-pointer">
           <Image
-            src="/sliders/slider-3.gif"
+            src="/sliders/slider-3.jpg"
             alt="slider-2"
             width="0"
             height="0"
@@ -87,7 +87,7 @@ export const Slider: FC = (): ReactElement => {
         </SwiperSlide>
         <SwiperSlide className="cursor-pointer">
           <Image
-            src="/sliders/slider-5.jpg"
+            src="/sliders/slider-5.gif"
             alt="slider-5"
             width="0"
             height="0"
