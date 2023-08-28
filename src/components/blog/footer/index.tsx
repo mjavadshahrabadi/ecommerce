@@ -12,10 +12,10 @@ export const Footer: FC = (): ReactElement => {
   return (
     <footer className="bg-gray-700 mt-10">
       <div
-        className="max-w-6xl mx-auto grid grid-cols-3 gap-5 text-white p-5 lg:p-10"
+        className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5 text-white p-4 pb-8 lg:p-10"
         dir="rtl"
       >
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-4 items-center text-center md:items-start lg:text-right">
           <h4 className="text-lg font-semibold">درباره ما</h4>
           <p className="text-white text-[13px]">
             <i className="inline-flex relative top-1 ml-1">
@@ -44,7 +44,7 @@ export const Footer: FC = (): ReactElement => {
             online@rojagroup.com
           </p>
         </div>
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-4 items-center md:items-start">
           <h4 className="text-lg font-semibold">اطمینان به اعتبار ما</h4>
           <div className="flex items-start">
             <div className="w-[100px] h-[120px] bg-white rounded-md overflow-hidden ml-4">
@@ -69,7 +69,7 @@ export const Footer: FC = (): ReactElement => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-4 items-center md:items-start">
           <h4 className="text-lg font-semibold">خبرنامه</h4>
           <p className="text-[13px]">
             از تخفیف‌ها و جدیدترین‌های روژا شاپ باخبر شوید:

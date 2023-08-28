@@ -3,7 +3,7 @@ import { NailArticleList } from '@/components/blog/nail/NailArticleList'
 
 export const Nail: FC = (): ReactElement => {
   return (
-    <div className="max-w-6xl mx-auto mt-10 flex flex-col space-y-6">
+    <div className="max-w-6xl mx-auto mt-10 flex flex-col space-y-6 px-4 2xl:px-0">
       <div className="flex items-center justify-between">
         <button
           type="button"

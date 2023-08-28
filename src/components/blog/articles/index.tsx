@@ -6,7 +6,10 @@ import { ArticleCardsContainer } from '@/components/blog/articles/ArticleCardsCo
 export const Articles: FC = (): ReactElement => {
   return (
     <div className="max-w-6xl mx-auto mt-6">
-      <div className="grid grid-cols-8 items-start gap-4" dir="rtl">
+      <div
+        className="grid grid-cols-4 lg:grid-cols-8 px-4 2xl:px-0 items-start gap-4"
+        dir="rtl"
+      >
         <div className="overflow-hidden rounded-md col-span-4 relative cursor-pointer">
           <Image
             src="/blog/img-1.jpg"
@@ -17,7 +20,7 @@ export const Articles: FC = (): ReactElement => {
             className="w-full h-[450px] object-cover"
           />
           <div className="absolute inset-0 bottomShadow opacity-80" />
-          <div className="w-full flex items-center justify-between space-y-2 absolute right-0 left-0 bottom-0 p-3">
+          <div className="w-full flex items-center justify-between absolute right-0 left-0 bottom-0 p-3">
             <h5 className="text-white text-[15px] font-semibold">
               فواید خاک رس برای صورت
             </h5>
@@ -36,10 +39,10 @@ export const Articles: FC = (): ReactElement => {
               width={0}
               height={0}
               sizes="100vw"
-              className="w-full h-full"
+              className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bottomShadow opacity-80" />
-            <div className="w-full flex items-center justify-between space-y-2 absolute right-0 left-0 bottom-0 p-3">
+            <div className="w-full flex items-center justify-between absolute right-0 left-0 bottom-0 p-3">
               <h5 className="text-white text-[13px] font-semibold">
                 فواید خاک رس برای صورت
               </h5>
@@ -59,7 +62,7 @@ export const Articles: FC = (): ReactElement => {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bottomShadow opacity-80" />
-            <div className="w-full flex items-center justify-between space-y-2 absolute right-0 left-0 bottom-0 p-3">
+            <div className="w-full flex items-center justify-between absolute right-0 left-0 bottom-0 p-3">
               <h5 className="text-white text-[13px] font-semibold">
                 فواید خاک رس برای صورت
               </h5>
@@ -81,7 +84,7 @@ export const Articles: FC = (): ReactElement => {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bottomShadow opacity-80" />
-            <div className="w-full flex items-center justify-between space-y-2 absolute right-0 left-0 bottom-0 p-3">
+            <div className="w-full flex items-center justify-between absolute right-0 left-0 bottom-0 p-3">
               <h5 className="text-white text-[13px] font-semibold">
                 فواید خاک رس برای صورت
               </h5>
@@ -101,11 +104,11 @@ export const Articles: FC = (): ReactElement => {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bottomShadow opacity-80" />
-            <div className="w-full flex items-center justify-between space-y-2 absolute right-0 left-0 bottom-0 p-3">
+            <div className="w-full flex items-center justify-between absolute right-0 left-0 bottom-0 p-3">
               <h5 className="text-white text-[13px] font-semibold">
                 فواید خاک رس برای صورت
               </h5>
-              <div className="flex items-center">
+              <div className="flex items-start">
                 <Calendar3 className="w-4 h-4 text-white ml-1" />
                 <small className="text-white text-xs">۰۲ شهریور ۱۴۰۲</small>
               </div>

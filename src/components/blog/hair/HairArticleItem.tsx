@@ -17,7 +17,7 @@ export const HairArticleItem: FC<HairArticleItem> = ({
   imgSrc,
 }): ReactElement => {
   return (
-    <li className="w-full h-[350px] overflow-hidden rounded-md shadow-md bg-white">
+    <li className="w-full overflow-hidden rounded-md shadow-md bg-white">
       <div className="w-full h-[150px]">
         <Image
           src={imgSrc}
@@ -25,10 +25,10 @@ export const HairArticleItem: FC<HairArticleItem> = ({
           sizes="100vw"
           width={0}
           height={0}
-          className="w-full h-auto"
+          className="w-full h-auto object-cover"
         />
       </div>
-      <div className="py-8 px-5 flex flex-col space-y-4">
+      <div className="py-8 px-5 flex flex-col space-y-4 mt-16 lg:mt-0">
         <h4 className="text-gray-600 text-center text-sm">{title}</h4>
         <div className="border-t w-full" />
         <p className="text-xs text-gray-500 text-center">{description}</p>

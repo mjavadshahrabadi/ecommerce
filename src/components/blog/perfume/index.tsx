@@ -12,10 +12,10 @@ export const Perfume: FC = (): ReactElement => {
           >
             نمایش همه
           </button>
-          <h4 className="text-white text-xl font-semibold">عطر</h4>
+          <h4 className="text-white text-lg lg:text-xl font-semibold">عطر</h4>
         </div>
-        <div className="grid grid-cols-4 gap-4">
-          <div className="w-full h-[350px] bg-red-100 overflow-hidden rounded-md relative">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="w-full h-[350px]  overflow-hidden rounded-md relative">
             <div className="absolute inset-0 bottomShadow" />
             <Image
               src="/blog/perfume/img-1.jpg"

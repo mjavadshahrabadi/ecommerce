@@ -4,7 +4,7 @@ import { Clock, Person } from 'react-bootstrap-icons'
 
 export const ArticleCardsContainer: FC = (): ReactElement => {
   return (
-    <div className="mt-10 grid grid-cols-2 gap-5">
+    <div className="mt-10 grid lg:grid-cols-2 grid-cols-1 gap-5 px-4 2xl:px-0">
       <div className="flex flex-col space-y-4 bg-white shadow-md rounded-md p-3">
         <div className="flex items-center justify-between" dir="rtl">
           <h4 className="text-blue-400 text-[15px] font-semibold">
@@ -12,14 +12,14 @@ export const ArticleCardsContainer: FC = (): ReactElement => {
           </h4>
           <button
             type="button"
-            className="bg-blue-400 p-2 text-white shadow-2xl drop-shadow-md shadow-indigo-400 rounded-md text-[14px]"
+            className="bg-blue-400 p-2 text-white shadow-2xl drop-shadow-md shadow-indigo-400 rounded-md lg:text-[14px] text-[13px]"
           >
             نمایش همه
           </button>
         </div>
 
-        <div className="flex items-start space-x-3">
-          <div className="flex flex-col space-y-1" dir="rtl">
+        <div className="flex flex-col-reverse lg:flex-row items-start lg:space-x-3">
+          <div className="flex flex-col space-y-1 mt-4 lg:mt-0" dir="rtl">
             <h5 className="text-sm font-semibold text-gray-700">
               فواید خاک رس برای صورت + روش تهیه ماسک
             </h5>
@@ -39,14 +39,14 @@ export const ArticleCardsContainer: FC = (): ReactElement => {
               ساله در جهان دارد. مردمان بومی در تمد...
             </p>
           </div>
-          <div className="h-[120px] w-[200px] overflow-hidden rounded-xl flex shrink-0">
+          <div className="h-[120px] w-full lg:w-[200px] overflow-hidden rounded-xl flex shrink-0">
             <Image
               src="/blog/img-1.jpg"
               alt="آرایشی و بهداشتی"
               width={0}
               height={0}
               sizes="100vw"
-              className="w-full h-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
         </div>
@@ -99,14 +99,14 @@ export const ArticleCardsContainer: FC = (): ReactElement => {
           </h4>
           <button
             type="button"
-            className="bg-orange-400 p-2 text-white shadow-2xl drop-shadow-md shadow-orange-400 rounded-md text-[14px]"
+            className="bg-orange-400 p-2 text-white shadow-2xl drop-shadow-md shadow-orange-400 rounded-md lg:text-[14px] text-[13px]"
           >
             نمایش همه
           </button>
         </div>
 
-        <div className="flex items-start space-x-3">
-          <div className="flex flex-col space-y-1" dir="rtl">
+        <div className="flex flex-col-reverse lg:flex-row items-start lg:space-x-3">
+          <div className="flex flex-col space-y-1 mt-4 lg:mt-0" dir="rtl">
             <h5 className="text-sm font-semibold text-gray-700">
               بهترین محصولات آرایشی برای پوست خشک
             </h5>
@@ -126,14 +126,14 @@ export const ArticleCardsContainer: FC = (): ReactElement => {
               از قبیل ظاهر کیکی، ماسیدن آرایش و...
             </p>
           </div>
-          <div className="h-[120px] w-[200px] overflow-hidden rounded-xl flex shrink-0">
+          <div className="h-[120px] w-full lg:w-[200px] overflow-hidden rounded-xl flex shrink-0">
             <Image
               src="/blog/img-5.jpg"
               alt="آرایشی و بهداشتی"
               width={0}
               height={0}
               sizes="100vw"
-              className="w-full h-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
         </div>
