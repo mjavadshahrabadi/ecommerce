@@ -8,10 +8,12 @@ import { Brands } from '@/components/home/Brands'
 import { Bestselling } from '@/components/home/ Bestselling'
 import { LatestArticles } from '@/components/home/ LatestArticles'
 import { Benefits } from '@/components/home/Benefits'
+import { Modal } from '@/components/ui/Modal'
 
 export default function HomePage() {
   return (
     <section className="overflow-hidden">
+      <Modal />
       <Slider />
       <OffersList />
       <ShopSuggest />
